@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "target": "https://atletid.ru/api/health",
+  "status": "up",
+  "events": [
+    {
+      "id": "self-test:activation-v1:down",
+      "kind": "test",
+      "text": "🧪 ТЕСТ внешнего мониторинга AtletID\nУсловный сбой VPS.\nСообщение отправлено с GitHub, независимо от VPS.\nРабочий сервер продолжает работать.",
+      "created_at": "2026-11-04T19:38:21.511959+00:00",
+      "status": "pending",
+      "attempts": 0,
+      "next_attempt": 1793821101.511959
+    },
+    {
+      "id": "self-test:activation-v1:up",
+      "kind": "test",
+      "text": "🧪 ТЕСТ внешнего мониторинга AtletID\nУсловное восстановление.\nПроверка уведомлений о сбое и восстановлении завершена.",
+      "created_at": "2026-11-04T19:38:21.511959+00:00",
+      "status": "pending",
+      "attempts": 0,
+      "next_attempt": 1793821101.511959
+    }
+  ],
+  "last_persisted_at": 1793821101.511959,
+  "self_tests": {
+    "activation-v1": {
+      "created_at": "2026-11-04T19:38:21.511959+00:00"
+    }
+  },
+  "last_check_at": "2026-11-04T19:38:21.511959+00:00",
+  "last_probe": {
+    "ok": true,
+    "reason": "http_200_ok",
+    "attempts": 1
+  },
+  "last_transition_at": "2026-11-04T19:38:21.511959+00:00"
+}
