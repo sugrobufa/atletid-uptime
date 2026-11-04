@@ -9,8 +9,9 @@
       "text": "🧪 ТЕСТ внешнего мониторинга AtletID\nУсловный сбой VPS.\nСообщение отправлено с GitHub, независимо от VPS.\nРабочий сервер продолжает работать.",
       "created_at": "2026-11-04T19:38:21.511959+00:00",
       "status": "pending",
-      "attempts": 0,
-      "next_attempt": 1793821101.511959
+      "attempts": 1,
+      "next_attempt": 1793821161.511959,
+      "last_attempt_at": "2026-11-04T19:38:21.511959+00:00"
     },
     {
       "id": "self-test:activation-v1:up",
