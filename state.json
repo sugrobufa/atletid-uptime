@@ -28,13 +28,13 @@
       "sent_at": "2026-11-04T19:38:21.511959+00:00"
     }
   ],
-  "last_persisted_at": 1794366376.5682566,
+  "last_persisted_at": 1794469523.0154278,
   "self_tests": {
     "activation-v1": {
       "created_at": "2026-11-04T19:38:21.511959+00:00"
     }
   },
-  "last_check_at": "2026-11-11T03:06:16.568257+00:00",
+  "last_check_at": "2026-11-12T07:45:23.015428+00:00",
   "last_probe": {
     "ok": true,
     "reason": "http_200_ok",
